@@ -10,6 +10,7 @@
     <h1>Bienvenido</h1>
     <h3>Juego iniciado</h3>
     <script src="js/BuclePrincipal.js"></script>
+    <script src="js/Dimensiones.js"></script>
     <script src="js/inicio.js"></script>
 </body>
 </html>
