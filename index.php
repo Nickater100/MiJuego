@@ -7,8 +7,8 @@
     <meta name="author" content="Juego iniciado">
 <head>
 <body>
-    <h1>Bienvenido</h1>
-    <h3>Juego iniciado</h3>
+    <div id="juego"></div>
+    <script src="js/Rectangulo.js"></script>
     <script src="js/BuclePrincipal.js"></script>
     <script src="js/Dimensiones.js"></script>
     <script src="js/inicio.js"></script>
