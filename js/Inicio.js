@@ -1,3 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
-    console.log("javascript funciona")
+    inicio.iniciarJuego();
 }, false);
+
+var inicio = {
+  iniciarJuego: function() {
+   console.log("juego iniciado");
+   buclePrincipal.iterar()
+  }
+};
