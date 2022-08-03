@@ -21,6 +21,7 @@ let buclePrincipal = {
 
     },
     actualizar: function(registroTemporal){
+      teclado.reiniciar();
       buclePrincipal.APS++;
     },
     dibujar: function(registroTemporal){
