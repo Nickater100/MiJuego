@@ -42,7 +42,7 @@ var mando = {
 		}
 	},
     botonPulsado: function(boton){
-        if(typeof(boton) == "object"){h
+        if(typeof(boton) == "object"){
             return boton.pressed;
         } return boton == 1.0;
     },
