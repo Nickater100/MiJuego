@@ -25,7 +25,7 @@
             981, 981, 1154, 1155, 1156, 1157, 1158, 1159, 1088, 1010, 1162, 1163, 1164, 1054, 983, 1054, 981, 981, 981, 1010],
          "height":20,
          "id":1,
-         "name":"Capa de patrones 1",
+         "name":"Mapa",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -37,7 +37,7 @@
          "color":"#aa0000",
          "draworder":"topdown",
          "id":4,
-         "name":"Capa de Objetos 1",
+         "name":"NoPasar",
          "objects":[
                 {
                  "class":"",
@@ -326,7 +326,7 @@
          "color":"#00aa00",
          "draworder":"topdown",
          "id":5,
-         "name":"Capa de Objetos 2",
+         "name":"Caminos",
          "objects":[
                 {
                  "class":"",
