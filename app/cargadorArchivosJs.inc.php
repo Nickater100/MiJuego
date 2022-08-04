@@ -1,5 +1,7 @@
 <?php
 
+$fecha = new DateTime();
+
 $fuentesJavascript = array(
  'js/Ajax.js',
  'js/Teclado.js',
@@ -11,6 +13,6 @@ $fuentesJavascript = array(
 );
 
 foreach($fuentesJavascript as $fuente){
-    echo '<script src="' . $fuente . '"></script>';
+    echo '<script src="' . $fuente . '?'.  $fecha -> getTimestamp().'"></script>';
     echo nl2br("\n");
 }
