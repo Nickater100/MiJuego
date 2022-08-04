@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 var inicio = {
   iniciarJuego: function() {
    console.log("juego iniciado");
+   ajax.cargarArchivo("mapas/mundohelado.json")
    teclado.iniciar();
    dimensiones.iniciar();
    mando.iniciar();

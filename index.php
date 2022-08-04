@@ -8,11 +8,8 @@
 <head>
 <body>
     <div id="juego"></div>
-    <script src="js/Teclado.js"></script>
-    <script src="js/Rectangulo.js"></script>
-    <script src="js/Mando.js"></script>
-    <script src="js/BuclePrincipal.js"></script>
-    <script src="js/Dimensiones.js"></script>
-    <script src="js/inicio.js"></script>
+    <?php 
+     include_once 'app/cargadorArchivosJs.inc.php';
+    ?>
 </body>
 </html>
