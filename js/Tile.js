@@ -21,5 +21,6 @@ Tile.prototype.aplicarEstilos = function(){
     var x = this.sprite.posicionEnHoja.x;
     var y = this.sprite.posicionEnHoja.y;
     document.getElementById(this.idHTML).style.backgroundPosition ="-" + x + "px -"+ y + "px";
-
+    document.getElementById(this.idHTML).style.backgroundClip = "border-box";
+    document.getElementById(this.idHTML).style.outline = "1px solid transparent";
 }
