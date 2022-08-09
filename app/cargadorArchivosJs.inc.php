@@ -4,6 +4,7 @@ $fecha = new DateTime();
 
 $fuentesJavascript = array(
  'js/Punto.js',
+ 'js/Sprite.js',
  'js/Ajax.js',
  'js/Teclado.js',
  'js/Rectangulo.js',
