@@ -9,7 +9,7 @@
 <body>
     <div id="juego"></div>
     <?php 
-     include_once 'app/cargadorArchivosJs.inc.php';
+     include_once 'app/cargadorArchivosJs.inc.php'
     ?>
 </body>
 </html>
